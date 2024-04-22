@@ -16,8 +16,13 @@ function App() {
 
       <Routes>
         <Route path='/' Component={Home} />
-        <Route path='/products' Component={Products} />
+        <Route path='/p ' Component={Products} />
         <Route path='/products/:id' Component={Product}/>
+        {/* <Route index path='/blog' Component={vlog}>
+          <Route Component={contact}/>
+          <Route path='/1' Component={} />
+
+        </Route> */}
         {/* <Route path='/Cart' Component={Cart}/> */}
       </Routes>
 
